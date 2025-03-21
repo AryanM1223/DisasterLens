@@ -1,0 +1,25 @@
+{
+  "name": "disasterlens",
+  "version": "1.0.0",
+  "description": "DisasterLens is a real-time disaster information aggregation system that collects and categorizes disaster-related data from social media, news portals, and open sources. The system filters relevant data using advanced algorithms and displays it on a user-friendly interactive dashboard for disaster response agencies.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "socket.io": "^4.8.1",
+    "twitter-api-v2": "^1.21.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
