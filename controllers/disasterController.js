@@ -34,13 +34,12 @@ exports.startDataCollection = (io) => {
       const allPosts = [...newsPosts, ...gdacsPosts, ...usgsPosts, ...weatherPosts];
       console.log('All posts:', allPosts);
 
-      for (const post of allPosts) {
-        const processed = await processPost(post);
-        if (processed) { // Skip if processed is null
-          // Handle both single entries and arrays
+      for (let i = 0; i < allPosts.length; i++) {
+        const post = allPosts[i];
+        const processed = await processPost(post, i); // Pass the index
+        if (processed) {
           const entries = Array.isArray(processed) ? processed : [processed];
           for (const entry of entries) {
-            // Double-check that the category is not "unknown"
             if (entry.category === 'unknown') {
               console.log('Skipping entry with unknown category:', entry.text);
               continue;
@@ -49,7 +48,7 @@ exports.startDataCollection = (io) => {
               text: entry.text,
               timestamp: entry.timestamp,
               source: entry.source,
-              'location.state': entry.location.state, // Ensure uniqueness by location
+              'location.state': entry.location.state,
             });
             if (!existingDisaster) {
               const disaster = new Disaster(entry);
