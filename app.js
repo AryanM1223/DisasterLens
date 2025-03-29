@@ -5,6 +5,7 @@ const http = require('http');
 const cors = require('cors'); 
 const config = require('./config');
 const disasterRoutes = require('./routes/disasterRoute');
+const locationRoutes = require('./routes/locationRoute');
 const { startDataCollection } = require('./controllers/disasterController');
 
 const app = express();
@@ -15,6 +16,7 @@ app.use(cors());
 
 app.use(express.json());
 app.use('/api', disasterRoutes);
+app.use('/api', locationRoutes);
 
 mongoose.connect(config.mongoUri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
