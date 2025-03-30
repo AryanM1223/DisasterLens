@@ -46,7 +46,7 @@ exports.startDataCollection = (io) => {
               console.log("Skipping entry with unknown category:", entry.text);
               continue;
             }
-          
+            // Normalize the text and timestamp for duplicate checking
             const normalizedText = entry.text.trim().toLowerCase();
             const normalizedTimestamp = new Date(entry.timestamp);
             normalizedTimestamp.setSeconds(0, 0); 

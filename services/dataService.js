@@ -101,7 +101,7 @@ exports.fetchGdacs = async () => {
         created_at: item.pubDate[0],
         source: "GDACS",
         link: item.link[0],
-      })); // Removed India filter to fetch global GDACS alerts
+      })); 
   } catch (error) {
     console.error("Error fetching GDACS alerts:", error.message);
     return [];
@@ -122,7 +122,7 @@ exports.fetchUsgs = async () => {
       created_at: new Date(feature.properties.time).toISOString(),
       source: "USGS",
       coordinates: feature.geometry.coordinates,
-    })); // Removed India-specific bounding box filter to fetch global earthquakes
+    })); 
   } catch (error) {
     console.error("Error fetching USGS data:", error.message);
     return [];
@@ -131,7 +131,6 @@ exports.fetchUsgs = async () => {
 
 exports.fetchWeather = async () => {
   try {
-    // Define multiple locations across the world (latitude, longitude, and name)
     const locations = [
       { name: "Kerala (Thrissur)", latitude: 10.8505, longitude: 76.2711, country: "India" },
       { name: "Mumbai", latitude: 19.076, longitude: 72.8777, country: "India" },
@@ -152,7 +151,6 @@ exports.fetchWeather = async () => {
 
     const allAlerts = [];
 
-    // Fetch weather data for each location
     for (const location of locations) {
       console.log(`Fetching Open-Meteo data for ${location.name}...`);
       const response = await axios.get("https://api.open-meteo.com/v1/forecast", {
@@ -167,7 +165,6 @@ exports.fetchWeather = async () => {
       const hourly = response.data.hourly;
       const alerts = [];
 
-      // Check for heavy rainfall and high winds
       for (let i = 0; i < hourly.time.length; i++) {
         if (hourly.precipitation[i] > 30) {
           alerts.push({
@@ -203,13 +200,11 @@ exports.fetchWeather = async () => {
   }
 };
 
-// Helper function to process posts
 const processPost = async (post) => {
   try {
     let category = "unknown";
     const textLower = post.text.toLowerCase();
 
-    // Check for disaster keywords
     if (textLower.includes("earthquake")) category = "earthquake";
     if (textLower.includes("flood")) category = "flood";
     if (textLower.includes("cyclone") || textLower.includes("storm")) category = "cyclone";
@@ -218,18 +213,15 @@ const processPost = async (post) => {
     if (textLower.includes("forest fire")) category = "forest fire";
     if (textLower.includes("heatwave") || textLower.includes("heat wave")) category = "heatwave";
 
-    // Use category from fetchWeather if provided
     if (post.category) {
       category = post.category;
     }
 
-    // Skip if no disaster category is identified
     if (category === "unknown") {
       console.log("Skipping post with no disaster category:", post.text);
       return null;
     }
 
-    // Define Indian states and cities with their coordinates
     const indianLocations = {
       "andhra pradesh": { coordinates: [80.0, 16.5], type: "state" },
       "arunachal pradesh": { coordinates: [93.0, 28.0], type: "state" },
