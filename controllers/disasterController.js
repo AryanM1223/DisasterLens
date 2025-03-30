@@ -46,15 +46,15 @@ exports.startDataCollection = (io) => {
               console.log("Skipping entry with unknown category:", entry.text);
               continue;
             }
-            // Normalize the text and timestamp for duplicate checking
+          
             const normalizedText = entry.text.trim().toLowerCase();
             const normalizedTimestamp = new Date(entry.timestamp);
-            normalizedTimestamp.setSeconds(0, 0); // Round to the nearest minute
+            normalizedTimestamp.setSeconds(0, 0); 
 
             const existingDisaster = await Disaster.findOne({
               text: normalizedText,
               timestamp: {
-                $gte: new Date(normalizedTimestamp.getTime() - 60000), // Within 1 minute
+                $gte: new Date(normalizedTimestamp.getTime() - 60000), 
                 $lte: new Date(normalizedTimestamp.getTime() + 60000),
               },
               source: entry.source,
@@ -64,7 +64,7 @@ exports.startDataCollection = (io) => {
             if (!existingDisaster) {
               const disaster = new Disaster({
                 ...entry,
-                text: normalizedText, // Save the normalized text
+                text: normalizedText, 
                 timestamp: normalizedTimestamp,
               });
               await disaster.save();
@@ -82,5 +82,5 @@ exports.startDataCollection = (io) => {
       console.error("Error in data collection:", error.message);
       console.error("Error stack:", error.stack);
     }
-  }, 60000); // Every minute
+  }, 60000); 
 };

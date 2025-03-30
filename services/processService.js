@@ -1,24 +1,4 @@
-const axios = require("axios");
-const Disaster = require("../models/disasterModel");
 
-// Remove INDIA_BOUNDS and isWithinIndia since we want global coverage
-// const INDIA_BOUNDS = {
-//   minLat: 6.5,
-//   maxLat: 37.0,
-//   minLon: 68.0,
-//   maxLon: 97.5,
-// };
-
-// const isWithinIndia = (lon, lat) => {
-//   return (
-//     lat >= INDIA_BOUNDS.minLat &&
-//     lat <= INDIA_BOUNDS.maxLat &&
-//     lon >= INDIA_BOUNDS.minLon &&
-//     lon <= INDIA_BOUNDS.maxLon
-//   );
-// };
-
-// Define Indian cities for location extraction
 const indianLocations = {
   Bengaluru: { coordinates: [77.5946, 12.9716], state: "Karnataka", type: "city" },
   Delhi: { coordinates: [77.1025, 28.7041], state: "Delhi", type: "city" },
@@ -44,7 +24,6 @@ const indianLocations = {
   },
 };
 
-// Define countries for global location extraction
 const countries = {
   afghanistan: "Afghanistan",
   albania: "Albania",
@@ -243,11 +222,9 @@ const countries = {
   zimbabwe: "Zimbabwe",
 };
 
-// Helper function to extract location from text
 const extractLocationFromText = (text, source) => {
   const lowerText = text.toLowerCase();
 
-  // Check if the text mentions any known Indian cities
   const citiesMentioned = Object.keys(indianLocations).filter((city) =>
     lowerText.includes(city.toLowerCase())
   );
@@ -261,7 +238,6 @@ const extractLocationFromText = (text, source) => {
     };
   }
 
-  // For USGS posts, extract location after " - "
   if (source === "USGS" && text.includes(" - ")) {
     const parts = text.split(" - ");
     if (parts.length > 1) {
@@ -276,7 +252,6 @@ const extractLocationFromText = (text, source) => {
           type: "state",
         };
       }
-      // Check for countries
       const matchedCountry = Object.keys(countries).find((country) =>
         locationText.toLowerCase().includes(country)
       );
@@ -295,7 +270,6 @@ const extractLocationFromText = (text, source) => {
     }
   }
 
-  // For GDACS posts, extract countries between "affects these countries: [" and "]"
   if (source === "GDACS" && text.includes("affects these countries: [")) {
     const start = text.indexOf("affects these countries: [") + 26;
     const end = text.indexOf("]", start);
@@ -317,7 +291,6 @@ const extractLocationFromText = (text, source) => {
     }
   }
 
-  // Check for countries in the text
   const matchedCountry = Object.keys(countries).find((country) =>
     lowerText.includes(country)
   );
@@ -336,29 +309,7 @@ const extractLocationFromText = (text, source) => {
   };
 };
 
-// Remove reverseGeocode since we don't need it for global disasters
-// const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-// const reverseGeocode = async (lon, lat, requestIndex = 0) => {
-//   try {
-//     await delay(requestIndex * 500);
-//     const apiKey = "pk.5be457253f673a8cb2ce17d11ca17749";
-//     const response = await axios.get("https://us1.locationiq.com/v1/reverse", {
-//       params: {
-//         key: apiKey,
-//         lat: lat,
-//         lon: lon,
-//         format: "json",
-//       },
-//     });
-//     const data = response.data;
-//     const state = data.address?.state || "Unknown";
-//     return state;
-//   } catch (error) {
-//     console.error("Error in reverse geocoding with LocationIQ:", error.message);
-//     return "Unknown";
-//   }
-// };
 
 exports.processPost = async (post, requestIndex) => {
   try {
@@ -379,18 +330,15 @@ exports.processPost = async (post, requestIndex) => {
       category = "heatwave";
     }
 
-    // Extract location from text
     let location = extractLocationFromText(post.text, post.source);
     locationName = location.name;
     coordinates = location.coordinates;
     locationType = location.type;
 
-    // If coordinates are provided, use them
     if (post.coordinates) {
       coordinates = post.coordinates;
     }
 
-    // Special handling for NewsAPI posts
     if (post.source === "NewsAPI") {
       const entries = [];
       const citiesMentioned = Object.keys(indianLocations).filter((city) =>
@@ -417,7 +365,6 @@ exports.processPost = async (post, requestIndex) => {
         }
         return entries;
       } else {
-        // Check for countries
         const matchedCountry = Object.keys(countries).find((country) =>
           text.includes(country)
         );

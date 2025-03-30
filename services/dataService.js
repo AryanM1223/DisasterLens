@@ -2,23 +2,6 @@ const axios = require("axios");
 const xml2js = require("xml2js");
 const config = require("../config");
 
-// Remove INDIA_BOUNDS and isWithinIndia since we want global coverage
-// const INDIA_BOUNDS = {
-//   minLat: 6.5,
-//   maxLat: 37.0,
-//   minLon: 68.0,
-//   maxLon: 97.5,
-// };
-
-// const isWithinIndia = (lon, lat) => {
-//   return (
-//     lat >= INDIA_BOUNDS.minLat &&
-//     lat <= INDIA_BOUNDS.maxLat &&
-//     lon >= INDIA_BOUNDS.minLon &&
-//     lon <= INDIA_BOUNDS.maxLon
-//   );
-// };
-
 exports.fetchNews = async () => {
   try {
     console.log("Inside fetchNews function...");
@@ -34,7 +17,7 @@ exports.fetchNews = async () => {
     console.log("Making NewsAPI request...");
     const response = await axios.get("https://newsapi.org/v2/everything", {
       params: {
-        q: "flood OR earthquake OR cyclone OR disaster OR storm OR landslide OR tsunami OR heatwave OR forest fire", // Removed "india AND" to fetch global news
+        q: "flood OR earthquake OR cyclone OR disaster OR storm OR landslide OR tsunami OR heatwave OR forest fire", 
         apiKey: config.newsApiKey,
         language: "en",
         sortBy: "publishedAt",
@@ -45,7 +28,6 @@ exports.fetchNews = async () => {
     const articles = response.data.articles || [];
     console.log("NewsAPI raw data:", articles);
 
-    // Filter articles to ensure they contain at least one disaster keyword
     const disasterKeywords = [
       "flood",
       "earthquake",
@@ -289,11 +271,9 @@ const processPost = async (post) => {
       "surat": { coordinates: [72.8311, 21.1702], type: "city", state: "Gujarat" },
     };
 
-    // Find all mentioned locations
     let location = { name: "Unknown", coordinates: null, type: "unknown" };
     let mentionedLocations = [];
 
-    // Check for Indian states and cities
     for (const [locationName, locData] of Object.entries(indianLocations)) {
       if (textLower.includes(locationName)) {
         const formattedName = locationName.charAt(0).toUpperCase() + locationName.slice(1);
@@ -313,7 +293,6 @@ const processPost = async (post) => {
       }
     }
 
-    // If no Indian locations are found, try to extract a country name
     if (mentionedLocations.length === 0) {
       const countries = {
         afghanistan: "Afghanistan",
@@ -517,15 +496,15 @@ const processPost = async (post) => {
         if (textLower.includes(countryKey)) {
           mentionedLocations.push({
             name: countryName,
-            coordinates: null, // Coordinates will be added later if available
+            coordinates: null, 
             type: "country",
           });
-          break; // Only take the first country mentioned to avoid ambiguity
+          break; 
         }
       }
     }
 
-    // If Open-Meteo provides a country, use it
+   
     if (post.country) {
       mentionedLocations = [
         {
@@ -536,12 +515,11 @@ const processPost = async (post) => {
       ];
     }
 
-    // If no locations are found, use default
+ 
     if (mentionedLocations.length === 0) {
       mentionedLocations.push({ name: "Unknown", coordinates: null, type: "unknown" });
     }
 
-    // Create a disaster entry for each location
     const disasterEntries = mentionedLocations.map((location) => ({
       text: post.text,
       category,
@@ -554,10 +532,9 @@ const processPost = async (post) => {
       source: post.source,
     }));
 
-    // For USGS and Open-Meteo posts, override coordinates if provided
     if ((post.source === "USGS" || post.source === "Open-Meteo") && post.coordinates) {
       disasterEntries.forEach((entry) => {
-        entry.location.coordinates = post.coordinates.slice(0, 2); // [longitude, latitude]
+        entry.location.coordinates = post.coordinates.slice(0, 2); 
       });
     }
 
@@ -568,5 +545,4 @@ const processPost = async (post) => {
   }
 };
 
-// Export processPost for use in disasterController.js
 exports.processPost = processPost;

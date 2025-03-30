@@ -1,0 +1,460 @@
+29-03-2025 23:58:29 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+29-03-2025 23:58:39 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+29-03-2025 23:58:49 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+29-03-2025 23:58:59 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+29-03-2025 23:59:09 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+29-03-2025 23:59:19 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+29-03-2025 23:59:29 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+29-03-2025 23:59:39 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:01:39 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:01:49 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:01:59 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:02:09 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:02:19 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:02:29 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:02:39 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:02:49 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:07:18 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:07:28 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:07:38 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:07:48 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:07:58 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:08:08 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:08:18 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:08:28 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:09:30 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:09:40 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:09:50 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:10:00 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:10:10 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:10:20 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:10:30 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:10:40 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:15:55 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:16:05 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:16:15 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:16:24 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:16:51 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:17:01 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:17:11 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:17:21 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:17:31 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:17:41 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:17:51 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:18:01 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:34:42 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:34:43 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:34:52 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:34:53 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:02 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:03 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:12 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:13 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:22 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:23 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:32 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:33 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:42 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:43 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:52 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 00:35:53 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:03:27 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:03:28 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:03:37 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:03:38 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:03:47 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:03:48 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:03:57 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:03:58 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:04:07 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:04:08 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:04:17 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:04:18 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:04:27 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:04:28 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:04:37 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 01:04:38 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:48:11 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:48:12 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:48:21 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:48:23 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:48:31 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:48:33 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:48:41 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:48:43 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:48:51 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:48:53 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:49:01 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:49:03 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:49:12 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:49:13 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:49:22 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34
+30-03-2025 10:49:23 - ERROR: An error occured fetch failed
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async C:\Users\aryan\DisasterLens\routes\locationRoute.js:59:34

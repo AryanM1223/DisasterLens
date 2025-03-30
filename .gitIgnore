@@ -1,1 +1,4 @@
 node_modules
+config/.env
+logs/activity.log
+logs/error.log
